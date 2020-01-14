@@ -12,10 +12,6 @@ Vagrant.configure("2") do |config|
         m1.vm.hostname="k8smaster1"
         m1.vm.network "private_network", ip: "10.0.0.10"
         m1.vm.provider "virtualbox" do |vb|
-            # Access Internet
-            vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
-            vb.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
-            # Config memory
             vb.memory = 1024
         end
     end
@@ -24,10 +20,6 @@ Vagrant.configure("2") do |config|
         m2.vm.hostname="k8smaster2"
         m2.vm.network "private_network", ip: "10.0.0.11"
         m2.vm.provider "virtualbox" do |vb|
-            # Access Internet
-            vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
-            vb.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
-            # Config memory
             vb.memory = 1024
         end
     end
