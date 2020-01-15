@@ -10,7 +10,7 @@ for studying purposes.
 ## Running
 Clone the project
 ```bash
-...
+https://github.com/Jordan-Queiroz/vms_creator.git
 ```
 Go to project's directory
 ```bash
