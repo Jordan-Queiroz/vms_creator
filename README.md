@@ -58,7 +58,7 @@ To suspend a specific machine:
 ```bash
 vagrant suspend <machine_id>
 ```
-Destroying doesn't keep anyfiles. To detroy all machines:
+Destroying doesn't keep any files. To detroy all machines:
 ```bash
 vagrant destroy
 ```
@@ -70,7 +70,7 @@ To bring back all suspended or destroyed machine:
 ```bash
 vagrant up
 ```
-To ring back a specific suspendend or destroyed machine:
+To bring back a specific suspendend or destroyed machine:
 ```bash
 vagrant up <machine_id>
 ```
