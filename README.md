@@ -39,7 +39,7 @@ a626788  haproxy1   virtualbox running /home/user/somewhere/vms_creator
 vagrant ssh-config 5f52e10 9fdc32f 78dcd89 377dfee a626788 > ~/.ssh/config
 ```
 
-## Acessing VMs
+## Accessing VMs
 Simply do
 ```bash
 ssh vagrant@k8smaster1
